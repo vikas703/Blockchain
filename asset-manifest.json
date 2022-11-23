@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Blockchain/static/css/main.741907de.css",
+    "main.js": "/Blockchain/static/js/main.06d4b588.js",
+    "static/js/787.cda612ba.chunk.js": "/Blockchain/static/js/787.cda612ba.chunk.js",
+    "static/media/Mask.png": "/Blockchain/static/media/Mask.902d39b8902eab05ee07.png",
+    "static/media/portfolio_img.png": "/Blockchain/static/media/portfolio_img.2c9dbf0eea2eb6f4f9ca.png",
+    "static/media/Fea5.png": "/Blockchain/static/media/Fea5.d9f898dff4e7e027447b.png",
+    "static/media/Fea4.png": "/Blockchain/static/media/Fea4.b163c995ef074cb894b7.png",
+    "static/media/secure.JPG": "/Blockchain/static/media/secure.3d287441d5a160add3d4.JPG",
+    "static/media/pic.svg": "/Blockchain/static/media/pic.ba9142915ce3c1fdbcc0a28ebd1e0634.svg",
+    "static/media/Fea2.png": "/Blockchain/static/media/Fea2.44e1af72d52f1f3e34e6.png",
+    "static/media/Union1.svg": "/Blockchain/static/media/Union1.ded94f6051269ad25a5d505d04d3aca9.svg",
+    "static/media/Union2.svg": "/Blockchain/static/media/Union2.f91e32e94222d44e0c1dfbc8959ae690.svg",
+    "static/media/Hash.svg": "/Blockchain/static/media/Hash.5b2cffc6111a6818d5f69c56181a20f7.svg",
+    "static/media/foot5.svg": "/Blockchain/static/media/foot5.f4405befe69120f143ee790db56c18a1.svg",
+    "static/media/foot7.svg": "/Blockchain/static/media/foot7.bcc8fe6c5c8b43c89f0e166c21136fd2.svg",
+    "static/media/foot11.svg": "/Blockchain/static/media/foot11.614b06e57ed4e9f8a73a52fd9a072549.svg",
+    "static/media/foot6.svg": "/Blockchain/static/media/foot6.3374d25e92a25ced3d8c38dd5ec11c53.svg",
+    "static/media/foot4.svg": "/Blockchain/static/media/foot4.9c2a94d84e039c2c500c62c0c239928b.svg",
+    "static/media/foot12.svg": "/Blockchain/static/media/foot12.d320295b5e45a85e937a68c4ab25f860.svg",
+    "index.html": "/Blockchain/index.html",
+    "main.741907de.css.map": "/Blockchain/static/css/main.741907de.css.map",
+    "main.06d4b588.js.map": "/Blockchain/static/js/main.06d4b588.js.map",
+    "787.cda612ba.chunk.js.map": "/Blockchain/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.741907de.css",
+    "static/js/main.06d4b588.js"
+  ]
+}
