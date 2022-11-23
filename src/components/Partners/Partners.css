@@ -1,0 +1,124 @@
+.partners{
+    margin-top: 2rem;
+    display: flex;
+    gap: 5rem;
+}
+
+.Client{
+    color: #2D83EE;
+}
+
+.partners span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    color: #2D83EE;
+}
+
+
+/*-----------Smart------------*/
+
+.Smart{
+    margin-top: 50px;
+}
+
+.in_smart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.smart_img{
+    width: 400px;
+}
+
+.smart_text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about_smart{
+    line-height: 30px;
+}
+
+.blockchains{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.smart_btn{
+    margin-top: 1rem;
+}
+
+
+/*-------blockchains----*/
+.testing{
+    margin-top: 70px;
+}
+
+.Blockchain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.blockchain_img{
+    width: 250px;
+}
+
+/*------Diligence-------*/
+
+.diligence{
+    margin-top: 70px;
+}
+
+.Diligence{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.dili_img{
+    width: 300px;
+
+}
+
+.feather1{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 2px;
+}
+
+.feather{
+    color: #2D83EE;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+/*-------Secure---------*/
+
+.Secure{
+    margin-top: 70px;
+}
+
+.final_Secure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.secure_img{
+    width: 100%;
+}

@@ -1,0 +1,266 @@
+.Need{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+    margin-left: -100px;
+}
+
+.need_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+.need_text h1{
+    font-size: 35px;
+}
+
+.need_btn{
+    padding: 12px 22px;
+    background-image: linear-gradient(to right, #0a509b,#338bf7,#318dfe);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.need_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.p1{
+    padding: 20px 20px;
+    border: 1px solid #2D83EE;
+    border-radius: 8px;
+    color: #2D83EE;
+    margin-right: -350px;
+    font-size: 15px;
+}
+.p2{
+    padding: 25px 30px;
+    border: 1px solid #2D83EE;
+    border-radius: 8px;
+    color: #2D83EE;
+    margin-right: -150px;
+}
+
+.p3{
+    padding: 20px 30px;
+    background-color: #4A4BEE;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-top: -18px;
+}
+
+
+.p4{
+    padding: 25px 30px;
+    border: 1px solid #2D83EE;
+    border-radius: 8px;
+    color: #2D83EE;
+    margin-right: -150px;
+}
+
+.p5{
+    padding: 20px 20px;
+    border: 1px solid #2D83EE;
+    border-radius: 8px;
+    color: #2D83EE;
+    margin-right: -350px;
+    font-size: 15px;
+}
+
+/*---------Featured--------*/
+.featured{
+    margin-top: 50px;
+}
+
+
+.featured_in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+.featured_text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.featured_box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 12px 55px;
+    border: 1px solid #2D83EE;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #00000029;
+}
+
+.Client3{
+    color: #2D83EE;
+    display: flex;
+    margin-top: 2.8rem;
+    margin-bottom: -2rem;
+    
+}
+
+.Client4{
+    color: #2D83EE;
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    
+}
+
+.Client5{
+    color: #2D83EE;
+    display: flex;
+    margin-bottom: -0.6rem;
+}
+
+/*----Client-------*/
+
+.testimonials{
+    margin-top: 100px;
+}
+
+.testimonials_in{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;   
+}
+
+.testimonials_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.testimonials_h1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials_boxes_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.testimonials_boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    font-size: 13px;
+}
+
+.testimonials_boxes1{
+    display: flex;
+    font-size: 30px;
+}
+
+/*---------FAQ-------*/
+
+.FAQ{
+    margin-top: 80px;
+}
+
+.main_faq{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+}
+
+
+.faq_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ques1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #2D83EE;
+    padding: 30px 40px;
+}
+
+.ques1 p{
+    text-align: justify;
+    line-height: 25px;
+}
+
+.ques_icon{
+    font-size: 26px;
+    color: #2D83EE;
+}
+
+.inques1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ques2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #2D83EE;
+    padding: 20px 30px;
+}
+
+/*---Catch----*/
+
+.Catch{
+    margin-top: 60px;
+}
+
+.Catch_2{
+    margin-top: -10px;
+    display: flex;
+    gap: 56px;
+}
+
+.Catch_img{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mask{
+    width: 280px;
+}
+
+.Catch_img p{
+    line-height: 22px;
+    font-size: 13px;
+}

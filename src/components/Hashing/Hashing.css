@@ -1,0 +1,63 @@
+.Hashing{
+    background-color: #15306F;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Hash_text{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hash1{
+    width: 300px;
+}
+
+.Hash_text p{
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.hash2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hash_input{
+    background-color: #0c1b3f;
+    width: 80%;
+    padding: 10px 40px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.tick{
+    background-color: #29D089;
+    border-radius: 60%;
+    color: #ffffff;
+}
+
+.Hash_img{
+    position: relative;
+}
+
+.hash_img1{
+    position: relative;
+    width: 700px;
+    left: 150px;
+    z-index: 10;
+}
+
+.hash_img2{
+    position: absolute;
+    top: 250px;
+    left: 420px;
+    
+}
+
