@@ -9,42 +9,54 @@ import fea5 from '../../assets/Fea5.png';
 const Featured = () => {
   return (
     <div className='featured_in'>
-    <div className='featured_text'>
-    <p className='Client'>MENTIONS</p>
-    <h1>As Featured In</h1>
-    </div>
-    <div className='featured_box'>
-    <div className='box1'>
-    <img  src={fea1} alt='img'/>
-    <p className='Client'>Read More</p>
+    <div class="container3">
+
+    <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true" />
+                <h3>Design</h3>
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                    <a href="#">Read More</a>
+            </div>
+        </div>
     </div>
 
-    <div className='box1'>
-    <img  src={fea2} alt='img'/>
-    <p className='Client'>Read More</p>
+    <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true" />
+                <h3>Code</h3>
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                    <a href="#">Read More</a>
+            </div>
+        </div>
     </div>
 
-    <div className='box1'>
-    <img  src={fea3} alt='img'/>
-    <p className='Client3'>Read More</p>
-    </div>
-
-    <div className='box1'>
-    <img  src={fea4} alt='img'/>
-    <p className='Client4'>Read More</p>
-    </div>
-
-    <div className='box1'>
-    <img  src={fea5} alt='img'/>
-    <p className='Client5'>Read More</p>
-    </div>
-
-    <div className='box1'>
-    <img  src={fea1} alt='img'/>
-    <p className='Client'>Read More</p>
+    <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true" />
+                <h3>Launch</h3>
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                    <a href="#">Read More</a>
+            </div>
+        </div>
     </div>
     
-    </div>
+</div>
     
     </div>
   )

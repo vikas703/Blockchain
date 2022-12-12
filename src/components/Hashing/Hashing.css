@@ -31,6 +31,7 @@
 
 .hash_input{
     background-color: #0c1b3f;
+    color: #29D089;
     width: 80%;
     padding: 10px 40px;
     text-align: left;
@@ -61,3 +62,63 @@
     
 }
 
+@media screen and (max-width: 1024px){
+    .Hash_text{
+        margin-left: 250px;
+        gap: 20px;
+    }
+    
+    .hash_img1{
+        width: 700px;
+        left: 50px;
+    }
+    
+    .hash_img2{
+        top: 250px;
+        left: 220px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .Hash_text{
+        margin-left: 400px;
+        gap: 20px;
+    }
+    
+    .hash_img1{
+        width: 600px;
+        left: -30px;
+    }
+    
+    .hash_img2{
+        top: 200px;
+        left: 50px;
+        
+    }
+    
+    .hash1{
+        width: 200px;
+    }
+    
+    .Hash_text p{
+        font-size: 8px;
+    }
+    
+    .hash2{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .hash_input{
+        background-color: #0c1b3f;
+        width: 70%;
+        padding: 8px 30px;
+        text-align: left;
+        border-radius: 7px;
+    }
+    
+    
+}

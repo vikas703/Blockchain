@@ -7,17 +7,12 @@ import {TiTick} from 'react-icons/ti';
 
 const Hashing = () => {
   return (
-    <section>
     <div className='Hashing'>
     <div className='Hash_text'>
     <img src={Hash} alt='img' className='hash1' />
     <p>DeFi & NFT Hacks, CTFs, and Blockchain Security Insights Straight to your Inbox.</p>
     <p>Explore our weekly newsletter: HashingBits. Stay updated on everything we’re publishing. Stand a step<br /> ahead.</p>
     <input type='text' placeholder='youremail@gmail.com' className='hash_input' />
-    <div  className='hash2'>
-    <span className='tick'><TiTick/></span>
-    <p>Your email has been successfully registered, headlines will be sent to you soon.</p>
-    </div>
     
     </div>
     
@@ -29,8 +24,6 @@ const Hashing = () => {
 
 
     </div>
-
-    </section>
   )
 }
 

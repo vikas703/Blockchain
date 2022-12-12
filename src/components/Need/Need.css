@@ -1,10 +1,17 @@
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B185F;
+}
+
 .Need{
     margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
-    
     margin-left: -100px;
 }
 
@@ -12,7 +19,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-   
 }
 
 .need_text h1{
@@ -116,151 +122,165 @@
     border: 1px solid #2D83EE;
     border-radius: 10px;
     box-shadow: 5px 5px 15px #00000029;
+    min-width: 280px;
+    min-height: 180px;
 }
 
-.Client3{
-    color: #2D83EE;
-    display: flex;
-    margin-top: 2.8rem;
-    margin-bottom: -2rem;
-    
-}
-
-.Client4{
-    color: #2D83EE;
-    display: flex;
-    gap: 1rem;
-    margin-top: 2rem;
-    margin-bottom: -2rem;
-    
-}
-
-.Client5{
-    color: #2D83EE;
-    display: flex;
-    margin-bottom: -0.6rem;
-}
-
-/*----Client-------*/
-
-.testimonials{
-    margin-top: 100px;
-}
-
-.testimonials_in{
-    display: flex;
-    flex-direction: column;
-    gap: 60px;   
-}
-
-.testimonials_text{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.testimonials_h1{
-    display: flex;
-    justify-content: space-between;
-}
-
-.testimonials_boxes_head{
+/*------hover-----*/
+.container3{
+    width: 100%;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 40px;
 }
 
-.testimonials_boxes{
+.container3 .card{
+    position: relative;
+    cursor: pointer;
+}
+
+.container3 .card .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container3 .card .face.face1{
+    position: relative;
+    background: #333;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container3 .card:hover .face.face1{
+    background: #FB2576;
+    transform: translateY(0);
+}
+
+.container3 .card .face.face1 .content{
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.container3 .card:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.container3 .card .face.face1 .content img{
+    max-width: 100px;
+}
+
+.container3 .card .face.face1 .content h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
     text-align: center;
-    gap: 15px;
-    font-size: 13px;
+    font-size: 1.5em;
 }
 
-.testimonials_boxes1{
+.container3 .card .face.face2{
+    position: relative;
+    background: #fff;
     display: flex;
-    font-size: 30px;
-}
-
-/*---------FAQ-------*/
-
-.FAQ{
-    margin-top: 80px;
-}
-
-.main_faq{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 120px;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.container3 .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.container3 .card .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+}
+
+.container3 .card .face.face2 .content a{
+    margin: 15px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+.container3 .card .face.face2 .content a:hover{
+    background: #333;
+    color: #fff;
 }
 
 
-.faq_text{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
 
-.ques1{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    border: 1px solid #2D83EE;
-    padding: 30px 40px;
-}
 
-.ques1 p{
-    text-align: justify;
-    line-height: 25px;
-}
 
-.ques_icon{
-    font-size: 26px;
-    color: #2D83EE;
-}
-
-.inques1{
-    display: flex;
-    justify-content: space-between;
+@media screen and (max-width: 1024px){
+        .Need{
+            flex-direction: column;
+            gap: 70px;
+        }
+        .featured_box{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 2rem;
+        }
+        .container3{
+            flex-direction: column;
+        }
 
 }
 
-.ques2{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    border: 1px solid #2D83EE;
-    padding: 20px 30px;
-}
+@media screen and (max-width: 600px){
+    .Need{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .featured_box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 2rem;
+    }
+    .p1{
+        padding: 10px 10px;
+        margin-right: -250px;
+        font-size: 10px;
+    }
+    .p2{
+        padding: 15px 20px;
+        margin-right: -120px;
+        font-size: 10px;
+    }
+    
+    .p3{
+        padding: 10px 20px;
+        margin-top: -14px;
+        margin-right: -30px;
+        font-size: 10px;
+    }
+    
+    
+    .p4{
+        padding: 15px 20px;
+        margin-right: -100px;
+        font-size: 10px;
+    }
+    
+    .p5{
+        padding: 10px 10px;
+        margin-right: -250px;
+        font-size: 10px;
+    }
+    .need_text{
+        margin-left: 40px;
+    }
 
-/*---Catch----*/
-
-.Catch{
-    margin-top: 60px;
-}
-
-.Catch_2{
-    margin-top: -10px;
-    display: flex;
-    gap: 56px;
-}
-
-.Catch_img{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.mask{
-    width: 280px;
-}
-
-.Catch_img p{
-    line-height: 22px;
-    font-size: 13px;
 }

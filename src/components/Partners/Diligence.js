@@ -1,5 +1,5 @@
 import React from 'react';
-import persons from '../../assets/persons.png';
+import persons from '../../assets/persons2.png';
 import {GiFeather} from 'react-icons/gi'
 
 
@@ -14,8 +14,8 @@ const Diligence = () => {
     <p className='Client'>SERVICE</p>
     <h1>Due Diligence</h1>
 
-    <p className='about_smart'>QuillAudits acknowledges the significant threats involved in <br/>
-        smart contracts, which can lead to many critical <br/>
+    <p className='about_smart'>Significant threats involved in <br/>
+        smart contracts, which can lead to many critical 
         possibilities.
     </p>
     <div className='blockchains'>

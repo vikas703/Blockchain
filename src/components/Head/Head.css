@@ -1,17 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@900&family=Poppins:wght@300;400;500;600&family=Roboto+Mono:wght@400;500&display=swap');
 .All{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 100vh;
-    gap: 25px;
-    background-color: #15306F;
+    height: auto;
+    min-height: 100vh;
+    background-color: #7F167F;
+    color: #460C68;
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 /*---------Nav--------*/
 .nav{
-    
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,14 +34,14 @@ img{
     align-items: center;
 }
 
-.arrow1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.nav_arr{
+    font-size: 40px;
+    color: #460C68;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
-
-
 
 .btn{
     padding: 10px 30px;
@@ -48,9 +53,22 @@ img{
     box-shadow: 5px 8px 10px #00000029;
 }
 
+.nav_btn{
+    padding: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+
+
 @media screen and (max-width: 600px){
     .nav{
-        flex-direction: column;
+        flex-direction: row;
     }
     .two{
         flex-direction: column;
@@ -61,17 +79,14 @@ img{
 /*--head-----*/
 
 .head{
-    width: 70%;
-    margin-top: 1px;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
+    
 }
 
 .text_part{
-    color: #FFFFFF;
+    color: #ffff;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -79,17 +94,42 @@ img{
 }
 
 .big{
-    font-size: 40px;
+    font-family: 'Overpass', sans-serif;
+    font-weight:bold;
+    font-size: 60px;
     text-align:left;
+    background-image: url(../../assets/third.gif);
+    background-size: cover;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .small{
     font-size: 20px;
     margin-top: -10px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
 }
 
-.img_part1{
-    width: 300px;
+.nav_left{
+    display: flex;
+    text-align: end;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
 }
 
 .button_part {
@@ -111,50 +151,58 @@ img{
         margin-top: 20px;
         gap: 10px;
     }
+    .img_part{
+        background-color: #D6E4E5;
+        width: 200px;
+        height: 220px;
+        
+    }
+    .heading{
+        top: 40%;
+        left: 26%;
+    }
     
 }
 
-/*------footer-------*/
-
-.footer{
-    margin-top: 50px;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
-}
-
-.part{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.small_footer{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    text-align: justify;
-}
 
 
-.big_text{
-    color: #2D83EE;
-}
-
-.small_text{
-    color: #FFFFFF;
-}
-
-
-@media screen and (max-width: 600px) {
-    .footer{
+@media only screen and (max-width: 2000px){
+    .nav_btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    .two{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 50%;
+        display: flex;
         flex-direction: column;
-        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        background-color: #F56EB3;
+        gap: 1.5rem;
+        transition: 1s;
+        transform: translateX(150vh);
+        font-size: 1.5rem;
+        z-index: 10;
+    }
+    .nav .responsive_nav{
+        transform: none;
     }
 
+}
+
+
+@media screen and (max-width: 1024px){
+    
+   
+    .head{
+        gap: 40px;
+    }
+    .two{
+        width: 100%;
+    }
 
 }

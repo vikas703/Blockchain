@@ -9,9 +9,8 @@ const Together = () => {
     <div className='container'>
     <div className='blue'>
     <div className='blue_text'>
-    <h1>Join Hands With us to <br/> secure Web3 Together</h1>
-    <p>Help us in our journey to secure web3 by joining our team of talented<br/>
-     individuals spread across the globe</p>
+    <h1>Join Hands With to <br/> secure Web3 Together</h1>
+    <p>Help us in our journey to secure web3.</p>
      <div className='blue_btn'>
      <button className='blue_btn1'>APPLY NOW!</button>
      </div>

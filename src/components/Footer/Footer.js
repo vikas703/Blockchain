@@ -18,14 +18,13 @@ import foot12 from '../../assets/foot12.svg';
 
 const Footer = () => {
   return (
-    <section>
     <div className='last_footer'>
     <div className='final_footer'>
 
     <div className='footer1'>
     <h3>Parent Company</h3>
     <img src={head} alt='img' className='footer_head' />
-    <p className='foot_p'>Quillhash delivers enterprise <br/>
+    <p className='foot_p'>Delivers enterprise <br/>
      grade blockchain technology<br/>
     to leading companies<br/> worldwide.</p>
     <div className='white'>
@@ -64,11 +63,12 @@ const Footer = () => {
 
     <div className='footer4_mail'>
     <span><HiOutlineMail/></span>
-    <p>contact@quillaudits.com</p>
+    <p>contact@something.com</p>
     </div>
     </div>
 
     </div>
+    
     <div className='social'>
     <h3>Join our Journey</h3>
     <div className='icons'>
@@ -82,12 +82,11 @@ const Footer = () => {
     <img src={foot11} alt='img'  className='icon'/>
     <img src={foot12} alt='img'  className='icon'/>
     </div>
-    <p>All Rights Reserved. © Copyright 2022. QuillHash Technologies Private Limited</p>
+    <p>All Rights Reserved. © Copyright 2022. </p>
     </div>
     
     </div>
    
-    </section>
   )
 }
 

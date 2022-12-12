@@ -12,7 +12,6 @@ function App() {
     <div className="App">
       <Head />
       <Partners />
-      <Portfolio />
       <Need />
       <Hashing />
       <Together />
@@ -22,3 +21,14 @@ function App() {
 }
 
 export default App;
+
+/*
+      <Head />
+      <Partners />
+      <Portfolio />
+      <Need />
+      <Hashing />
+      <Together />
+      <Footer />
+
+      */

@@ -1,82 +1,63 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './Head.css';
-import back from '../../assets/back.png';
-import head from '../../assets/head.png';
-import {RiArrowDropDownLine} from 'react-icons/ri';
+import {FaBars,FaTimes} from 'react-icons/fa';
+import {TiArrowDownThick} from 'react-icons/ti';
 
 const Head = () => {
+  const NavRef = useRef();
+
+  const showNavbar = () => {
+    NavRef.current.classList.toggle("responsive_nav");
+  }
+
   return (
     <div className='All' >
     <div className='nav'>
     <div className='img1'>
-    <img src={head} alt='company-logo' />
+    <h1>Web 3.0</h1>
     </div>
-    
-    <div className='two'>
-    <span className='arrow1'>Audit Services <i className='arrow'><RiArrowDropDownLine /></i></span>
-    <span>Pricing</span>
-    <span>Blog</span>
-    <span className='arrow1'>Resources <i className='arrow'><RiArrowDropDownLine /></i></span>
-    <button className='btn'>Portfolio</button>
-    <button className='btn'>Request An Audit</button>
+    <button className='nav_btn ' onClick={showNavbar} ><FaBars/></button>
+    <div className='two' ref={NavRef}>
+    <p>hello? vikas here i belive the next big thing might be web3.0! <br/> Do you belive?</p>
+    <p className='nav_left'>Made this webside<br/> with React and Fun If you<br/> like my work or you want to contact me   </p>
+    <span className='nav_arr'><TiArrowDownThick/></span>
+    <a href='https://vikas703.github.io/React-Website/' target='_blank'>Click Here</a>
+    <button className='nav_btn nav_close_btn' onClick={showNavbar}><FaTimes/>  </button>
     </div>
 
+    </div>
+
+    <div className='middle_text'>
+    <p className='big'> Web3 has become <br/> 
+    a catch-all term for the <br/> 
+    vision of a new, better internet. 
+    </p>
     </div>
     
     <div className='head'>
       <div className='text_part'>
-      <p className='big'>Emerging Web3 Ventures
-         Trust Our Smart Contract
-         Audits & Diligence Services
-      </p>
-      <p className='small'>QuillAudits, Making web3 a Safer place</p>
-
-      <div className='button_part'>
-      <button className='btn'>Request Free Quote</button>
-      <button className='head_btn'>Explore Services</button>
-      </div>
+      
+      <p className='small'>At its core, <br/>
+      Web3 uses blockchains, cryptocurrencies,<br/>
+      to give power back to the users in the form of ownership.</p>
 
       </div>
-      <div className='img_part'>
-      <img className='img_part1' src={back} alt='Img' />
-      </div>
+      
     </div>
-
-    <div className='footer'>
-
-    <div className='part'>
-    <div className='footer_text'>
-    <h1 className='big_text'>$12.8B</h1>
-    </div>
-    <div className='small_footer'>
-    <p className='small_text'>Amount Lost to <br/> DeFi Hacks in 2021</p>
-    </div>
-    </div>
-
-    <div className='part'>
-    <div className='footer_text'>
-    <h1 className='big_text'>600K</h1>
-    </div>
-    <div className='small_footer'>
-    <p className='small_text'>Lines of Codes <br/> Secured by QuillAudits</p>
-    </div>
-    </div>
-
-    <div className='part'>
-    <div className='footer_text'>
-    <h1 className='big_text'>$14.6B</h1>
-    </div>
-    <div className='small_footer'>
-    <p className='small_text'>Amount Protected <br/> By QuillAudits</p>
-    </div>
-    </div>
-
-    </div>
-
-
 
     </div>
   )
 }
 
 export default Head
+
+/* 
+      <div className='img_part'>
+      <span className='heading'><h1>Web3.0</h1></span>
+      </div>
+
+      <div className='button_part'>
+      <button className='btn'>Request Free Quote</button>
+      <button className='head_btn'>Explore Services</button>
+      </div>
+      */

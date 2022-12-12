@@ -4,9 +4,8 @@
     height: 70vh;
     border-radius: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 100px;
 }
 
 .blue_text{
@@ -37,4 +36,29 @@
 
 .blue_img1{
     width: 300px;
+}
+
+@media screen and (max-width: 1024px){
+
+    .blue_text h1{
+        font-size: 30px;
+    }
+    
+    .blue_text p{
+        color: #ffffff;
+        line-height: 20px;
+    }
+
+    .blue_img1{
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .blue{
+        height: 100vh;
+        flex-direction: column;
+    }
+
+  
 }

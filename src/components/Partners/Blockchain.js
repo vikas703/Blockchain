@@ -1,5 +1,5 @@
 import React from 'react';
-import person from '../../assets/person.png';
+import person from '../../assets/person1.png';
 
 
 const Blockchain = () => {
@@ -9,7 +9,7 @@ const Blockchain = () => {
     <p className='Client'>SERVICE</p>
     <h1>Blockchain Penetration Testing</h1>
 
-    <p className='about_smart'>QuillAudits proven strategy to vulnerabilities specific to <br/>
+    <p className='about_smart'>Proven strategy to vulnerabilities specific to <br/>
         Blockchain technology comes with a mix-blend of conventional <br/>
         pentesting approach and dynamic blockchain analysis.
     </p>
