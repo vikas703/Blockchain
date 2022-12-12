@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/Blockchain/static/css/main.6a65bfee.css",
-    "main.js": "/Blockchain/static/js/main.251b50bc.js",
+    "main.css": "/Blockchain/static/css/main.47f92998.css",
+    "main.js": "/Blockchain/static/js/main.cb895024.js",
     "static/js/787.cda612ba.chunk.js": "/Blockchain/static/js/787.cda612ba.chunk.js",
     "static/media/third.gif": "/Blockchain/static/media/third.5a42ff1919753ce6e229.gif",
     "static/media/trans.png": "/Blockchain/static/media/trans.b1ecd54c0b9d7eb7b51c.png",
     "static/media/person1.png": "/Blockchain/static/media/person1.56c4f4b093462313123f.png",
-    "static/media/Mask.png": "/Blockchain/static/media/Mask.902d39b8902eab05ee07.png",
-    "static/media/portfolio_img.png": "/Blockchain/static/media/portfolio_img.2c9dbf0eea2eb6f4f9ca.png",
-    "static/media/Fea5.png": "/Blockchain/static/media/Fea5.d9f898dff4e7e027447b.png",
+    "static/media/Eth.png": "/Blockchain/static/media/Eth.0a85a25af274bcefb35c.png",
+    "static/media/doge.png": "/Blockchain/static/media/doge.c0ba08f5aae8bb8fcfad.png",
+    "static/media/bitcoin.png": "/Blockchain/static/media/bitcoin.02601cd962eef1ea0931.png",
     "static/media/persons2.png": "/Blockchain/static/media/persons2.460b0083d2c7f2531a37.png",
-    "static/media/Fea4.png": "/Blockchain/static/media/Fea4.b163c995ef074cb894b7.png",
     "static/media/pic.svg": "/Blockchain/static/media/pic.ba9142915ce3c1fdbcc0a28ebd1e0634.svg",
-    "static/media/Fea2.png": "/Blockchain/static/media/Fea2.44e1af72d52f1f3e34e6.png",
     "static/media/Union1.svg": "/Blockchain/static/media/Union1.ded94f6051269ad25a5d505d04d3aca9.svg",
     "static/media/Union2.svg": "/Blockchain/static/media/Union2.f91e32e94222d44e0c1dfbc8959ae690.svg",
     "static/media/Hash.svg": "/Blockchain/static/media/Hash.5b2cffc6111a6818d5f69c56181a20f7.svg",
@@ -23,12 +21,12 @@
     "static/media/foot4.svg": "/Blockchain/static/media/foot4.9c2a94d84e039c2c500c62c0c239928b.svg",
     "static/media/foot12.svg": "/Blockchain/static/media/foot12.d320295b5e45a85e937a68c4ab25f860.svg",
     "index.html": "/Blockchain/index.html",
-    "main.6a65bfee.css.map": "/Blockchain/static/css/main.6a65bfee.css.map",
-    "main.251b50bc.js.map": "/Blockchain/static/js/main.251b50bc.js.map",
+    "main.47f92998.css.map": "/Blockchain/static/css/main.47f92998.css.map",
+    "main.cb895024.js.map": "/Blockchain/static/js/main.cb895024.js.map",
     "787.cda612ba.chunk.js.map": "/Blockchain/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a65bfee.css",
-    "static/js/main.251b50bc.js"
+    "static/css/main.47f92998.css",
+    "static/js/main.cb895024.js"
   ]
 }
