@@ -1,27 +1,28 @@
 import React from 'react';
-import fea1 from '../../assets/Fea1.png';
-import fea2 from '../../assets/Fea2.png';
-import fea3 from '../../assets/Fea3.png';
-import fea4 from '../../assets/Fea4.png';
-import fea5 from '../../assets/Fea5.png';
+import bitcoin from '../../assets/bitcoin.png'
+import eth from '../../assets/Eth.png'
+import doge from '../../assets/doge.png'
 
 
 const Featured = () => {
   return (
     <div className='featured_in'>
+    <h1>Cryptocurrencys</h1>
     <div class="container3">
 
     <div class="card">
         <div class="face face1">
             <div class="content">
-                <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true" />
-                <h3>Design</h3>
+                <img src={bitcoin} />
+                <h3>Bitcoin</h3>
             </div>
         </div>
         <div class="face face2">
             <div class="content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                    <a href="#">Read More</a>
+                <p>Bitcoin (BTC) is a cryptocurrency, a virtual currency designed to act
+                 as money and a form of payment outside the control of any one person, group, or entity, 
+                thus removing the need for third-party involvement in financial transactions.</p>
+                    
             </div>
         </div>
     </div>
@@ -29,14 +30,16 @@ const Featured = () => {
     <div class="card">
         <div class="face face1">
             <div class="content">
-                <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true" />
-                <h3>Code</h3>
+            <img src={eth} />
+            <h3>Ethereum</h3>
             </div>
         </div>
         <div class="face face2">
             <div class="content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                    <a href="#">Read More</a>
+                <p>Ethereum is a decentralized blockchain platform that establishes
+                 a peer-to-peer network that securely executes and verifies
+                  application code, called smart contracts.</p>
+                    
             </div>
         </div>
     </div>
@@ -44,14 +47,16 @@ const Featured = () => {
     <div class="card">
         <div class="face face1">
             <div class="content">
-                <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true" />
-                <h3>Launch</h3>
+            <img src={doge} />
+            <h3>Dogecoin</h3>
             </div>
         </div>
         <div class="face face2">
             <div class="content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                    <a href="#">Read More</a>
+                <p>Dogecoin (DOGE) is a peer-to-peer, open-source cryptocurrency.
+                 It is considered an altcoin and was launched in December 2013 
+                 with the image of a Shiba Inu dog as its logo</p>
+                   
             </div>
         </div>
     </div>

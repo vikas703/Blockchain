@@ -172,7 +172,7 @@
 }
 
 .container3 .card .face.face1 .content img{
-    max-width: 100px;
+    max-width: 130px;
 }
 
 .container3 .card .face.face1 .content h3{
@@ -204,20 +204,7 @@
     padding: 0;
 }
 
-.container3 .card .face.face2 .content a{
-    margin: 15px 0 0;
-    display:  inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    color: #333;
-    padding: 5px;
-    border: 1px solid #333;
-}
 
-.container3 .card .face.face2 .content a:hover{
-    background: #333;
-    color: #fff;
-}
 
 
 

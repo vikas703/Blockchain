@@ -3,7 +3,6 @@ import './Hashing.css';
 import Hash from '../../assets/Hash.svg';
 import Hash2 from '../../assets/Union1.svg';
 import Hash3 from '../../assets/Union2.svg';
-import {TiTick} from 'react-icons/ti';
 
 const Hashing = () => {
   return (
@@ -18,7 +17,6 @@ const Hashing = () => {
     
     
     <div className='Hash_img'>
-    <img src={Hash2} alt='img' className='hash_img1'/>
     <img src={Hash3} alt='img' className='hash_img2'/>
     </div>
 

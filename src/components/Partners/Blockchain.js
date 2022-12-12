@@ -9,8 +9,8 @@ const Blockchain = () => {
     <p className='Client'>SERVICE</p>
     <h1>Blockchain Penetration Testing</h1>
 
-    <p className='about_smart'>Proven strategy to vulnerabilities specific to <br/>
-        Blockchain technology comes with a mix-blend of conventional <br/>
+    <p className='about_smart'>Proven strategy to vulnerabilities specific to 
+        Blockchain technology comes with a mix-blend of conventional 
         pentesting approach and dynamic blockchain analysis.
     </p>
     <div className='blockchains'>

@@ -1,6 +1,6 @@
 .blue{
     background-color: #2D83EE;
-    width: 100%;
+    width: 90%;
     height: 70vh;
     border-radius: 20px;
     display: flex;
@@ -22,7 +22,6 @@
 
 .blue_text p{
     color: #ffffff;
-    line-height: 25px;
 }
 
 .blue_btn1{
@@ -58,6 +57,15 @@
     .blue{
         height: 100vh;
         flex-direction: column;
+    }
+    .blue_text{
+        gap: 1rem;
+    }
+    
+    .blue_text h1{
+        color: #ffffff;
+        line-height: 30px;
+        font-size: 25px;
     }
 
   

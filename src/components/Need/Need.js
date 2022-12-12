@@ -1,9 +1,6 @@
 import React from 'react';
-import Catch from './Catch';
-import FAQ from './FAQ';
 import Featured from './Featured';
 import './Need.css';
-import Testimonials from './Testimonials';
 
 const Need = () => {
   return (

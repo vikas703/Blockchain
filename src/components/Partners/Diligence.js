@@ -14,8 +14,8 @@ const Diligence = () => {
     <p className='Client'>SERVICE</p>
     <h1>Due Diligence</h1>
 
-    <p className='about_smart'>Significant threats involved in <br/>
-        smart contracts, which can lead to many critical 
+    <p className='about_smart'>Significant threats involved in smart contracts,
+     which can lead to many critical 
         possibilities.
     </p>
     <div className='blockchains'>

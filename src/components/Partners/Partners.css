@@ -51,12 +51,12 @@
 .smart_text{
     display: flex;
     flex-direction: column;
-
     gap: 1rem;
 }
 
 .about_smart{
-    line-height: 30px;
+    text-align: justify;
+    width: 20rem;
 }
 
 .blockchains{
@@ -68,7 +68,7 @@
 .smart_btn{
     margin-top: 1rem;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 700px){
     .in_smart{
         flex-direction: column-reverse;
         gap: 60px;
@@ -81,7 +81,7 @@
 
 /*-------blockchains----*/
 .testing{
-    margin-top: 30px;
+    margin-top: 10px;
     width: 100%;
 }
 
@@ -97,7 +97,7 @@
     width: 350px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 700px){
     .Blockchain{
         flex-direction: column;
         gap: 60px;
@@ -109,7 +109,7 @@
 /*------Diligence-------*/
 
 .diligence{
-    margin-top: 70px;
+    margin-top: 20px;
     width: 100%;
 }
 
@@ -138,7 +138,7 @@
     margin-top: 2px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 700px){
     .diligence{
         margin-top: 10px;
     }
@@ -152,13 +152,23 @@
 
 @media screen and (max-width: 600px){
     .dili_img{
-        width: 250px;
+        width: 270px;
     
     }
     .blockchain_img{
         width: 300px;
     }
     .smart_img{
-        width: 300px;
+        width: 250px;
+    }
+    .smart_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+       
+    }
+    .smart_text h1{
+        font-size: 25px;
     }
 }

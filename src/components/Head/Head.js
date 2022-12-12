@@ -18,8 +18,9 @@ const Head = () => {
     </div>
     <button className='nav_btn ' onClick={showNavbar} ><FaBars/></button>
     <div className='two' ref={NavRef}>
-    <p>hello? vikas here i belive the next big thing might be web3.0! <br/> Do you belive?</p>
-    <p className='nav_left'>Made this webside<br/> with React and Fun If you<br/> like my work or you want to contact me   </p>
+    <p>Hello? vikas here, i belive the next big thing might be web3.0! <b>Do you belive?</b> <br/>
+    <br/>
+    Made this webside with React and Fun If you like my work or you want to contact me.</p>
     <span className='nav_arr'><TiArrowDownThick/></span>
     <a href='https://vikas703.github.io/React-Website/' target='_blank'>Click Here</a>
     <button className='nav_btn nav_close_btn' onClick={showNavbar}><FaTimes/>  </button>

@@ -1,14 +1,13 @@
 .Hashing{
     background-color: #15306F;
-    height: 60vh;
+    min-height: 60vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    overflow: hidden;
+    padding: 20px;
 }
 
 .Hash_text{
-    margin-left: 100px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -38,72 +37,22 @@
     border-radius: 10px;
 }
 
-.tick{
-    background-color: #29D089;
-    border-radius: 60%;
-    color: #ffffff;
-}
-
-.Hash_img{
-    position: relative;
-}
-
-.hash_img1{
-    position: relative;
-    width: 700px;
-    left: 150px;
-    z-index: 10;
-}
-
-.hash_img2{
-    position: absolute;
-    top: 250px;
-    left: 420px;
+@media screen and (max-width: 700px){
+    .Hashing{
+    flex-direction: column;
+    gap: 20px;
+    }
+    .hash_img2{
+   width: 230px;
     
-}
-
-@media screen and (max-width: 1024px){
+    }
     .Hash_text{
-        margin-left: 250px;
         gap: 20px;
     }
     
-    .hash_img1{
-        width: 700px;
-        left: 50px;
-    }
-    
-    .hash_img2{
-        top: 250px;
-        left: 220px;
-        
-    }
-    
-}
-
-@media screen and (max-width: 600px){
-    .Hash_text{
-        margin-left: 400px;
-        gap: 20px;
-    }
-    
-    .hash_img1{
-        width: 600px;
-        left: -30px;
-    }
-    
-    .hash_img2{
-        top: 200px;
-        left: 50px;
-        
-    }
-    
-    .hash1{
-        width: 200px;
-    }
     
     .Hash_text p{
-        font-size: 8px;
+        font-size: 10px;
     }
     
     .hash2{
@@ -119,6 +68,4 @@
         text-align: left;
         border-radius: 7px;
     }
-    
-    
 }

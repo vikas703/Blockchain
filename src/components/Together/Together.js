@@ -6,7 +6,6 @@ import pic from '../../assets/pic.svg';
 const Together = () => {
   return (
     <section>
-    <div className='container'>
     <div className='blue'>
     <div className='blue_text'>
     <h1>Join Hands With to <br/> secure Web3 Together</h1>
@@ -19,7 +18,6 @@ const Together = () => {
     <img src={pic} alt='img'  className='blue_img1'/>
     </div>
     
-    </div>
     </div>
     </section>
   )
