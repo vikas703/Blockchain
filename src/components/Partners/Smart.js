@@ -1,19 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Search from '../../assets/trans.png';
 import {FaEthereum ,FaInfinity} from 'react-icons/fa';
 import {SiBinance} from 'react-icons/si';
 import {TbLetterS} from 'react-icons/tb';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Smart = () => {
-
+  useEffect(() => {
+    Aos.init({duration: 2000});
+  },[])
   return (
-    <div className='in_smart'>
+    <div  className='in_smart'>
     <div data-aos='fade-up' >
     <img className='smart_img' src={Search} alt='img' />
     </div>
     
-    <div  className='smart_text'>
+    <div data-aos='fade-up'  className='smart_text'>
     <p className='Client'>SERVICE</p>
     <h1>Smart Contract Auditing</h1>
 
@@ -28,7 +31,7 @@ const Smart = () => {
     <span><TbLetterS/>Solana</span>
     <span><FaEthereum/>EOS</span>
     <div className='smart_btn'>
-    <button className='btn'>Explore</button>
+    <a href='#'><button className='learn'> Learn More </button></a>
     </div>
     </div>
     

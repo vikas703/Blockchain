@@ -1,11 +1,12 @@
 .blue{
     background-color: #2D83EE;
-    width: 90%;
-    height: 70vh;
+    width: 80%;
+    height: auto;
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 2rem 0;
 }
 
 .blue_text{
@@ -30,6 +31,14 @@
     box-shadow: 0px 3px 9px #39140014;
     border-radius: 6px;
     padding: 10px 20px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.blue_btn1:hover{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
 }
 
 
@@ -55,11 +64,12 @@
 
 @media screen and (max-width: 600px){
     .blue{
-        height: 100vh;
+        width: 92%;
+        height: auto;
         flex-direction: column;
     }
     .blue_text{
-        gap: 1rem;
+        gap: 1.5rem;
     }
     
     .blue_text h1{
@@ -67,6 +77,8 @@
         line-height: 30px;
         font-size: 25px;
     }
-
+    .blue_btn1{
+        padding: 8px 15px;
+    }
   
 }

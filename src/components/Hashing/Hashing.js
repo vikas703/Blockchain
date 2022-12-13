@@ -12,7 +12,9 @@ const Hashing = () => {
     <p>DeFi & NFT Hacks, CTFs, and Blockchain Security Insights Straight to your Inbox.</p>
     <p>Explore our weekly newsletter: HashingBits. Stay updated on everything we’re publishing. Stand a step<br /> ahead.</p>
     <input type='text' placeholder='youremail@gmail.com' className='hash_input' />
-    
+    <div className='blue_btn'>
+     <button className='blue_btn1'>Submit</button>
+     </div>
     </div>
     
     

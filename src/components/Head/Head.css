@@ -132,6 +132,10 @@
         margin-top: 20px;
         gap: 10px;
     }
+    .big{
+        margin-top: 20px;
+    font-size: 50px;
+    }
     .img_part{
         background-color: #D6E4E5;
         width: 200px;
